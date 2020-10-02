@@ -10,7 +10,7 @@ int main()
 
     printf("Enter 1 for check if it is empty\nEnter 2 for check if it is full\n");
     printf("Enter 3 for Enqueue\nEnter 2 for dequeue\nEnter : ");
-    scanf("%d",select);
+    scanf("%d",&select);
 
     switch (select)
     {
@@ -49,7 +49,7 @@ void isempty(void)
 
 void isfull(void)
 {
-    if(rear=2)
+    if(rear==2)
     {
         printf("Queue is Full");
     }
